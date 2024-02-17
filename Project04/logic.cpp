@@ -18,8 +18,8 @@ int max_number_of_increments(int matrix[vertically][horizontally]) {
 			else {
 				if (number_of_increments > max_number) {
 					max_number = number_of_increments;
-					number_of_increments = 1;
 				}
+				number_of_increments = 1;
 			}
 		}
 		if (number_of_increments > max_number) {
